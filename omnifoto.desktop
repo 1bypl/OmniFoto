@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=OmniFoto
+GenericName=Przeglądarka tapet
+Comment=Lokalna, prywatna wyszukiwarka i przeglądarka tapet
+Exec=omnifoto
+Icon=omnifoto
+Terminal=false
+Categories=Graphics;Viewer;Photography;
+Keywords=tapeta;wallpaper;zdjęcie;obraz;galeria;
+StartupNotify=true

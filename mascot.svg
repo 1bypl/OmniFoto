@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Przezroczyste tło: brak prostokąta w tle i brak filtrów cienia,
+       dzięki czemu QtSvg nie rysuje kwadratowej ramki wokół żabki. -->
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#7fd4ff"/>
+      <stop offset="0.45" stop-color="#3b9dff"/>
+      <stop offset="1" stop-color="#1b5fbf"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff3ff"/>
+      <stop offset="1" stop-color="#a8d8ff"/>
+    </linearGradient>
+    <linearGradient id="album" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd54a"/>
+      <stop offset="1" stop-color="#f0a500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- łapki -->
+  <g fill="url(#body)" stroke="#17519e" stroke-width="3">
+    <ellipse cx="70" cy="168" rx="26" ry="18" transform="rotate(-25 70 168)"/>
+    <ellipse cx="186" cy="168" rx="26" ry="18" transform="rotate(25 186 168)"/>
+  </g>
+
+  <!-- ciało -->
+  <ellipse cx="128" cy="150" rx="78" ry="70" fill="url(#body)" stroke="#17519e" stroke-width="4"/>
+  <ellipse cx="128" cy="168" rx="52" ry="44" fill="url(#belly)" opacity="0.95"/>
+
+  <!-- oczy -->
+  <circle cx="96" cy="93" r="30" fill="url(#body)" stroke="#17519e" stroke-width="4"/>
+  <circle cx="160" cy="93" r="30" fill="url(#body)" stroke="#17519e" stroke-width="4"/>
+  <circle cx="96" cy="92" r="21" fill="#ffffff"/>
+  <circle cx="160" cy="92" r="21" fill="#ffffff"/>
+  <circle cx="101" cy="95" r="10" fill="#123a6d"/>
+  <circle cx="155" cy="95" r="10" fill="#123a6d"/>
+  <circle cx="104" cy="91" r="4" fill="#ffffff"/>
+  <circle cx="158" cy="91" r="4" fill="#ffffff"/>
+
+  <!-- uśmiech i policzki -->
+  <path d="M103 137 Q128 160 153 137" fill="none" stroke="#123a6d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="79" cy="130" r="9" fill="#ff8fa3" opacity="0.55"/>
+  <circle cx="177" cy="130" r="9" fill="#ff8fa3" opacity="0.55"/>
+
+  <!-- album zdjęciowy -->
+  <rect x="86" y="150" width="84" height="62" rx="8" fill="url(#album)" stroke="#b97800" stroke-width="3"/>
+  <rect x="94" y="158" width="68" height="46" rx="4" fill="#fff8e1" stroke="#d6a200" stroke-width="2"/>
+  <rect x="100" y="164" width="26" height="20" rx="2" fill="#3b9dff"/>
+  <circle cx="108" cy="171" r="3" fill="#fff7c2"/>
+  <path d="M100 182 l8 -8 6 6 6 -8 6 10z" fill="#7fd4ff"/>
+  <rect x="132" y="164" width="26" height="20" rx="2" fill="#2ecc71"/>
+  <circle cx="145" cy="172" r="5" fill="#fff7c2" opacity="0.8"/>
+  <path d="M128 186 l3.2 6.6 7.3 1 -5.3 5.1 1.3 7.2 -6.5 -3.4 -6.5 3.4 1.3 -7.2 -5.3 -5.1 7.3 -1z"
+        fill="#ffd54a" stroke="#b97800" stroke-width="1"/>
+
+  <!-- delikatne akcenty (bez cienia) -->
+  <circle cx="44" cy="84" r="4" fill="#bfe8ff" opacity="0.9"/>
+  <circle cx="212" cy="72" r="5" fill="#bfe8ff" opacity="0.8"/>
+  <circle cx="206" cy="112" r="3" fill="#bfe8ff" opacity="0.7"/>
+</svg>

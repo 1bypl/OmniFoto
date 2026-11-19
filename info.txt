@@ -1,0 +1,63 @@
+OMNIFOTO - informacje skrócone
+=============================
+
+Nazwa:        OmniFoto
+Wersja:       1.0.0
+Autor:        1bypl
+GitHub:       https://github.com/1bypl
+Licencja:     GNU GPL v3.0 or later (GPL-3.0-or-later)
+Opis:         Lokalna, prywatna przeglądarka i wyszukiwarka tapet
+              z podglądem, pokazem slajdów, ulubionymi i edycją ustawień.
+Testowane na: Fedora 45 KDE, 64-bit
+Planowane:    Debian, Ubuntu, Windows
+
+WYMAGANIA
+---------
+- Python 3.10 lub nowszy (testowano na 3.14)
+- PySide6 (Qt dla Pythona): QtWidgets, QtGui, QtCore, QtNetwork, QtSvg
+- Opcjonalnie: PySocks (dla proxy/Tor)
+
+FEDORA 45 - INSTALACJA ZALEZNOŚCI
+---------------------------------
+sudo dnf install python3 python3-pyside6 python3-pysocks
+
+URUCHOMIENIE
+------------
+./run.sh
+lub
+python3 -m omnifoto
+
+PLIKI KONFIGURACYJNE
+--------------------
+~/.config/OmniFoto/settings.json
+
+PAKIET RPM
+----------
+cd packaging && ./build_rpm.sh
+Efekt: ~/rpmbuild/RPMS/noarch/omnifoto-1.0.0-1.fc45.noarch.rpm
+
+FUNKCJE (w skrócie)
+-------------------
+- Wyszukiwanie w wielu źródłach, pasek postępu z czasem i statystykami źródeł
+- Tłumaczenie polskich fraz i filtrowanie niepasujących wyników
+- Kropki jakości 🟢/🟡/🔴 oraz czytelne plakietki urządzeń
+- Kafelki lub lista, ikony animacji i wygaszacza
+- Własne kolekcje (import/eksport/usuwanie), przełącznik skórek jednym kliknięciem
+- Ulubione (złota gwiazdka), ostatnio przeglądane, najlepsze, kategorie
+- Pokaz slajdów ze strzałkami i powiększaniem
+- 6 motywów, 7 języków, własne kategorie i źródła
+- Tryb prywatny: brak ciasteczek, brak historii, nagłówek DNT
+- Opcjonalne proxy / Tor SOCKS5
+
+UWAGA O WYSZUKIWANIU
+--------------------
+Źródła z oficjalnym API działają w pełni. Strony bez API (Google Images,
+Bing, WallpaperFlare, DeviantArt) są obsługiwane „best-effort” i pomijane,
+gdy nie zwracają danych. Dane demo działają zawsze, także offline.
+Tryb prywatny oznacza brak śladów po stronie aplikacji; pełną anonimowość
+sieciową zapewnia dopiero proxy/Tor.
+
+LICENCJA I WYKLUCZENIE ODPOWIEDZIALNOŚCI
+----------------------------------------
+Ten program jest wolnym oprogramowaniem rozpowszechnianym na warunkach
+GPL-3.0-or-later. Jest dostarczany BEZ GWARANCJI. Szczegóły w pliku LICENSE.
