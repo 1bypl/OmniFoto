@@ -13,13 +13,13 @@ OmniFoto łączy wygodę znaną z serwisów z tapetami (kafelki, lista, podgląd
 
 | Widok | Podgląd |
 | --- | --- |
-| Wyniki — kafelki | ![Kafelki](docs/screenshots/01-wyniki-kafelki.png) |
-| Wyniki — lista | ![Lista](docs/screenshots/02-wyniki-lista.png) |
-| Szczegóły tapety | ![Szczegóły](docs/screenshots/03-szczegoly-i-podglad.png) |
-| Pokaz slajdów | ![Slideshow](docs/screenshots/04-pokaz-slajdow.png) |
-| Ustawienia | ![Ustawienia](docs/screenshots/05-ustawienia.png) |
-| Własne kolekcje | ![Kolekcje](docs/screenshots/06-kolekcje.png) |
-| O programie | ![O programie](docs/screenshots/07-o-programie.png) |
+| Wyniki — kafelki | ![Kafelki](https://github.com/1bypl/OmniFoto/blob/main/01-wyniki-kafelki.png) |
+| Wyniki — lista | ![Lista](https://github.com/1bypl/OmniFoto/blob/main/02-wyniki-lista.png) |
+| Szczegóły tapety | ![Szczegóły](https://github.com/1bypl/OmniFoto/blob/main/03-szczegoly-i-podglad.png) |
+| Pokaz slajdów | ![Slideshow](https://github.com/1bypl/OmniFoto/blob/main/04-pokaz-slajdow.png) |
+| Ustawienia | ![Ustawienia](https://github.com/1bypl/OmniFoto/blob/main/05-ustawienia.png) |
+| Własne kolekcje | ![Kolekcje](https://github.com/1bypl/OmniFoto/blob/main/06-kolekcje.png) |
+| O programie | ![O programie](https://github.com/1bypl/OmniFoto/blob/main/07-o-programie.png) |
 
 ---
 
